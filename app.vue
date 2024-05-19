@@ -1,5 +1,10 @@
+<script setup lang="ts">
+const res = await $fetch('/api/test')
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    <h1>Test</h1>
+    <p>{{ res.id }}</p>
   </div>
 </template>
