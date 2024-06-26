@@ -2,5 +2,7 @@
 </script>
 
 <template>
-  <NuxtPage />
+  <div class="index">
+    aa
+  </div>
 </template>
