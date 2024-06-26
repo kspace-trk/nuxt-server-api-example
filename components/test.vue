@@ -1,11 +1,7 @@
 <script setup lang="ts">
 const res = await $fetch('/api/test')
-console.log(res.id)
 </script>
 
 <template>
-  <div>
-    <h1>Test</h1>
-    <p>{{ res }}</p>
-  </div>
+  <div class="test"></div>
 </template>
